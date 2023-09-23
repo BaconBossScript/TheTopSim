@@ -1,3 +1,5 @@
+if game.PlaceId == 14360251743 then
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "BaconBoss Hub | run til the top simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
@@ -215,3 +217,5 @@ Tp4Tab:AddSlider({
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 	end    
 })
+
+end
